@@ -6,7 +6,7 @@ import org.junit.Test;
 public class SklepTest {
 
 	/**
-	 * Moj pierwsy teat.
+	 * Moj pierwszy test.
 	 */
 	@Test
 	public void testKupJablko(){
