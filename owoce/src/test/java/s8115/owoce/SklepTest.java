@@ -23,6 +23,7 @@ public class SklepTest {
 	}
 
 	public void testKupBanan() {
+		
 		Sklep sklep = new Sklep();
 
 		Banany banan = sklep.kupBanan(4);
