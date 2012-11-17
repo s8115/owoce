@@ -22,14 +22,24 @@ public class SklepTest {
 		Assert.assertEquals(2, jablko.getKilogram());
 	}
 
+	@Test
 	public void testKupBanan() {
-		
+
 		Sklep sklep = new Sklep();
 
 		Banany banan = sklep.kupBanan(4);
 
 		Assert.assertEquals("Banany", banan.getRodzaj());
 		Assert.assertEquals(4, banan.getKilogram());
+	}
+
+	@Test
+	public void testKupMalina() {
+		Sklep sklep = new Sklep();
+		Malina malina = sklep.kupMalina(4);
+
+		Assert.assertEquals("Malina", malina.getRodzaj());
+		Assert.assertEquals(4, malina.getKilogram());
 	}
 
 }
