@@ -37,6 +37,15 @@ public class SklepTest {
 	}
 
 	@Test
+	public void testKupGruszka() {
+
+		Gruszka gruszka = sklep.kupGruszka(4);
+
+		Assert.assertEquals("Gruszka", gruszka.getRodzaj());
+		Assert.assertEquals(4, gruszka.getKilogram());
+	}
+
+	@Test
 	public void testKupMalina() {
 
 		Malina malina = sklep.kupMalina(4);

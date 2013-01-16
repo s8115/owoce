@@ -14,4 +14,8 @@ public class Sklep {
 		return new Malina(ilosc);
 	}
 
+	public Gruszka kupGruszka(int ilosc) {
+		return new Gruszka(ilosc);
+	}
+
 }
